@@ -18,7 +18,7 @@ spec:
               - key: project
                 operator: NotIn
                 values:
-                  - amazon
+                  - roboshop
 
   containers:
     - name: nginx
