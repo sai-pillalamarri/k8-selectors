@@ -31,11 +31,7 @@ spec:
                 operator: In
                 values:
                   - amazon
-  tolerations:
-    - key: "project"
-      operator: "Equal"
-      value: "roboshop"
-      effect: "NoSchedule"
+
   containers:
     - name: nginx
       image: nginx
